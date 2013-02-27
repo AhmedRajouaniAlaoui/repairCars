@@ -3,4 +3,5 @@
 <allow action="create" groupName="Administrator" groupID="E8C86880510E684BABBAE7B0AB3DF204" resource="Model.User" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="update" groupName="Administrator" groupID="E8C86880510E684BABBAE7B0AB3DF204" resource="Model.User" temporaryForcePermissions="false" type="dataClass"/>
 <allow action="remove" groupName="Administrator" groupID="E8C86880510E684BABBAE7B0AB3DF204" resource="Model.User" temporaryForcePermissions="false" type="dataClass"/>
+<allow type="module" resource="test" action="executeFromClient"/>
 </permissions>

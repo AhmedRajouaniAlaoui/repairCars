@@ -3,6 +3,26 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#combobox4 {
+	 width: 164px;
+	 height: 24px;
+	 top: 28px;
+	 left: 76px;
+	
+	 position: absolute;
+	 
+}
+
+#label24 {
+	 width: 46px;
+	 height: 14px;
+	 top: 33px;
+	 left: 25px;
+	
+	 position: absolute;
+	 
+}
+
 #container8 {
 	 width: 381px;
 	 height: 525px;
@@ -183,8 +203,8 @@
 
 #frame1 {
 	 width: 521px;
-	 height: 635px;
-	 top: 49px;
+	 height: 586px;
+	 top: 98px;
 	 left: 438px;
 	
 	 position: absolute;
@@ -204,8 +224,8 @@
 
 #dataGrid8 {
 	 width: 410px;
-	 height: 637px;
-	 top: 49px;
+	 height: 588px;
+	 top: 98px;
 	 left: 22px;
 	
 	 position: absolute;
@@ -287,20 +307,20 @@
 }
 
 #label19 {
-	 width: 58px;
-	 height: 15px;
-	 top: 65.5px;
-	 left: 32px;
+	 width: 51px;
+	 height: 16px;
+	 top: 65px;
+	 left: 39px;
 	
 	 position: absolute;
 	 
 }
 
 #label18 {
-	 width: 12px;
-	 height: 15px;
-	 top: 23.5px;
-	 left: 78px;
+	 width: 13px;
+	 height: 16px;
+	 top: 23px;
+	 left: 77px;
 	
 	 position: absolute;
 	 
@@ -308,8 +328,8 @@
 
 #label17 {
 	 width: 23px;
-	 height: 15px;
-	 top: 149.5px;
+	 height: 16px;
+	 top: 149px;
 	 left: 67px;
 	
 	 position: absolute;
@@ -317,50 +337,50 @@
 }
 
 #label16 {
-	 width: 35px;
-	 height: 15px;
-	 top: 107.5px;
-	 left: 55px;
+	 width: 29px;
+	 height: 16px;
+	 top: 107px;
+	 left: 61px;
 	
 	 position: absolute;
 	 
 }
 
 #label15 {
-	 width: 63px;
-	 height: 15px;
-	 top: 65.5px;
-	 left: 27px;
+	 width: 53px;
+	 height: 16px;
+	 top: 65px;
+	 left: 37px;
 	
 	 position: absolute;
 	 
 }
 
 #label14 {
-	 width: 12px;
-	 height: 15px;
-	 top: 23.5px;
-	 left: 78px;
+	 width: 13px;
+	 height: 16px;
+	 top: 23px;
+	 left: 77px;
 	
 	 position: absolute;
 	 
 }
 
 #label13 {
-	 width: 15px;
-	 height: 15px;
-	 top: 275.5px;
-	 left: 75px;
+	 width: 14px;
+	 height: 16px;
+	 top: 275px;
+	 left: 76px;
 	
 	 position: absolute;
 	 
 }
 
 #label12 {
-	 width: 17px;
-	 height: 15px;
-	 top: 233.5px;
-	 left: 73px;
+	 width: 16px;
+	 height: 16px;
+	 top: 233px;
+	 left: 74px;
 	
 	 position: absolute;
 	 
@@ -368,8 +388,8 @@
 
 #label11 {
 	 width: 19px;
-	 height: 15px;
-	 top: 191.5px;
+	 height: 16px;
+	 top: 191px;
 	 left: 71px;
 	
 	 position: absolute;
@@ -377,10 +397,10 @@
 }
 
 #label10 {
-	 width: 45px;
-	 height: 15px;
-	 top: 149.5px;
-	 left: 45px;
+	 width: 41px;
+	 height: 16px;
+	 top: 149px;
+	 left: 49px;
 	
 	 position: absolute;
 	 
@@ -485,7 +505,7 @@
 	 
 }
 
-#container10 #Tabs #menuBar1 > .waf-menuItem {
+#menuBar1 > .waf-menuItem {
 	 margin-bottom: 0px;
 	 
 }
@@ -628,8 +648,8 @@
 
 #label2 {
 	 width: 75px;
-	 height: 15px;
-	 top: 23.5px;
+	 height: 16px;
+	 top: 23px;
 	 left: 37px;
 	
 	 position: absolute;
@@ -649,8 +669,8 @@
 
 #label3 {
 	 width: 75px;
-	 height: 15px;
-	 top: 65.5px;
+	 height: 16px;
+	 top: 65px;
 	 left: 38px;
 	
 	 position: absolute;
@@ -670,8 +690,8 @@
 
 #label4 {
 	 width: 75px;
-	 height: 15px;
-	 top: 107.5px;
+	 height: 16px;
+	 top: 107px;
 	 left: 38px;
 	
 	 position: absolute;
@@ -691,8 +711,8 @@
 
 #label5 {
 	 width: 75px;
-	 height: 15px;
-	 top: 149.5px;
+	 height: 16px;
+	 top: 149px;
 	 left: 38px;
 	
 	 position: absolute;
@@ -793,8 +813,8 @@
 
 #label7 {
 	 width: 75px;
-	 height: 15px;
-	 top: 23.5px;
+	 height: 16px;
+	 top: 23px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -814,8 +834,8 @@
 
 #label8 {
 	 width: 75px;
-	 height: 15px;
-	 top: 65.5px;
+	 height: 16px;
+	 top: 65px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -835,8 +855,8 @@
 
 #label9 {
 	 width: 75px;
-	 height: 15px;
-	 top: 107.5px;
+	 height: 16px;
+	 top: 107px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -1086,8 +1106,8 @@
 
 #label20 {
 	 width: 75px;
-	 height: 15px;
-	 top: 146.5px;
+	 height: 16px;
+	 top: 146px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -1107,8 +1127,8 @@
 
 #label21 {
 	 width: 75px;
-	 height: 15px;
-	 top: 245px;
+	 height: 16px;
+	 top: 244.5px;
 	 left: 12px;
 	
 	 position: absolute;
@@ -1128,8 +1148,8 @@
 
 #label22 {
 	 width: 75px;
-	 height: 15px;
-	 top: 304.5px;
+	 height: 16px;
+	 top: 304px;
 	 left: 12px;
 	
 	 position: absolute;
@@ -1149,8 +1169,8 @@
 
 #label23 {
 	 width: 75px;
-	 height: 15px;
-	 top: 344.5px;
+	 height: 16px;
+	 top: 344px;
 	 left: 11px;
 	
 	 position: absolute;

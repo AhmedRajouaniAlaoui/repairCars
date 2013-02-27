@@ -2,6 +2,8 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var container5 = {};	// @container
+	var container10 = {};	// @container
 	var button8 = {};	// @button
 	var button2 = {};	// @button
 	var button18 = {};	// @button
@@ -17,6 +19,16 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // eventHandlers// @lock
 
+	container5.click = function container5_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+	};// @lock
+
+	container10.click = function container10_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+	};// @lock
+
 	button8.click = function button8_click (event)// @startlock
 	{// @endlock
 		// Add your code here
@@ -31,7 +43,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 		// Add your code here
 		
-		var myFact=sources.repair.getCurrentElement();
+		var myFact=sources.repairs1.getCurrentElement();
 		var param={};
 		param.ID=myFact.ID.getValue();;
 		var xhr = new XMLHttpRequest();
@@ -79,6 +91,13 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 		// Add your code here
 		sources.car1.selectByKey(sources.car0.getCurrentElement() ? sources.car0.getCurrentElement().getKey() : null)
+		
+		sources.repair.employee.load({
+                          'onSuccess': function(e) {
+                              if (e.entity != null) sources.employee.selectByKey(e.entity.ID.getValue());
+                              else sources.employee.select(-1);
+                          }
+                      });
 	//	sources.car.selectByKey(sources.car0.ID);
 	};// @lock
 
@@ -121,6 +140,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("container5", "click", container5.click, "WAF");
+	WAF.addListener("container10", "click", container10.click, "WAF");
 	WAF.addListener("button8", "click", button8.click, "WAF");
 	WAF.addListener("button2", "click", button2.click, "WAF");
 	WAF.addListener("button18", "click", button18.click, "WAF");

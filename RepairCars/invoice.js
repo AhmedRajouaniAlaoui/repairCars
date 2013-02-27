@@ -37,12 +37,7 @@
 		var test = SystemWorker.exec( execCommand , "" , modelFolder);
 		var pdfFic=File(modelFolder+pdfFileName+'.pdf');
 		
-		/*response.contentType ='application/pdf';
 		
-		var buf = new Buffer(pdfFic.size);
-		pdfFic.toBuffer().copy(buf);
-		response.body = buf.toBlob();
-		*/	
 		if(pdfFic.exists)
 		{
 			var report = ds.Report.createEntity();
